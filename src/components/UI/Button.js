@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-const Button = (props) => {
+ const Button = (props) => {
   return (
     <ButtonStyles style={{ marginRight: props.marginRight }} onClick={props.onClick}>
       {props.children}
     </ButtonStyles>
   );
 };
+
 export default Button;
- 
 const ButtonStyles = styled('button')`
   padding: 20px;
   font-weight: 600;

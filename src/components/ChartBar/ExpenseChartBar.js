@@ -39,14 +39,14 @@ const ChartBarInner = styled('div')`
     justify-content: flex-end;
     gap:20px;`
 
-const chartBarFill = styled('div')`
-background-color: #4826b9;
-width: 100%;
-transition: all 0.3s ease-out;
+// const chartBarFill = styled('div')`
+// background-color: #4826b9;
+// width: 100%;
+// transition: all 0.3s ease-out;
 
-`
-const chartBarLabel = styled('div')`
-font-weight: bold;
-font-size: 0.5rem;
-text-align: center;
-`
+// `
+// const chartBarLabel = styled('div')`
+// font-weight: bold;
+// font-size: 0.5rem;
+// text-align: center;
+// `
