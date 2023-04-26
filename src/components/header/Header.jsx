@@ -6,7 +6,8 @@ export const Header = ({ openExpenseHandler, openUserHandler,logOutHandler, isLo
   return (
     <HeaderContainer>
       {isLogin && (<div>
-      <Button onClick={openUserHandler}>Expenses</Button>
+      <Button onClick={openUserHandler
+      }>Expenses</Button>
       <Button onClick={openExpenseHandler}>Users</Button>
       <Button onClick={logOutHandler}>Logout</Button>
       </div>)}
